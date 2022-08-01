@@ -22,15 +22,15 @@
     <section class="col-lg-3 col-sm-12 searchCol my-auto">
         <h3>Search by City:</h3>
         <input type="text" class="search customSearch" placeholder="Ex:Washington DC">
-        <button class="btn-dark customBtn">Submit</button>
+        <button class="btn-dark customBtn" id="searchBtn">Search</button>
             <div id="searchHistory">
                 <h3>Recent Searches:</h3>
                 <!-- Search history buttons to append here -->
             </div>
         </section>
     <section class="col-lg-9 col-sm-12 resultsCol">
-        <div class="colWeather">
-            <h3 class="searchResults">Search Results:<span id="date"></span><span id="time"></span></h3>
+        <div class="colWeather flex-row">
+            <h3 class="searchResults">Search Results:<span id="time"></span></h3>
             <div>
                 <p id="bigCity">Search a city using the search box.<span id="city"></span></p>
                 <p>Temp: <span id="temperature"></span></p>

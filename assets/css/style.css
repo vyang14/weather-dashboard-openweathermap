@@ -73,3 +73,7 @@ input::placeholder{
     font-size: 32px;
     font-weight: 600;
 }
+
+#time {
+    float: right;
+}
