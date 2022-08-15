@@ -80,6 +80,7 @@ input::placeholder {
 
 .uvGreen {
     background-color: green;
+    color: white;
 }
 
 .uvYellow {
@@ -92,10 +93,12 @@ input::placeholder {
 
 .uvRed {
     background-color: red;
+    color: white;
 }
 
 .uvPurple {
     background-color: rgb(142, 68, 172);
+    color: white;
 }
 
 .card {
